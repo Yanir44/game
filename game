@@ -1,0 +1,27 @@
+name = (input("what is your name? "))
+move = input(f"Hello {name}, you can Click enter to move forward")
+YN1 = (input("Nice! are you ready? (N/Y (in capital letters)) "))
+if YN1 == "Y":
+    troll = False
+    print("OK")
+    move = (input(""))
+elif YN1 == "N":
+    troll = True
+    print("OK...")
+    move = (input(""))
+    
+
+move = (input("One day you woke up and you feel like you are 0.5 meters tall,"))
+move = (input("You get out of bed and walk on your four legs and go to th..."))
+move = (input("'" +"four legs?" + "'" ))
+move = (input("'"+"I should only have two"+"' " + "you say."))
+print("You run to the bathroom to look in the mirror")
+move = (input(""))
+move = (input(" jump on the sink"))
+move = (input("You look in the mirror and see"))
+move =(input("a cat?"))
+print("'" + "I'm not supposed to be a cat" + "'")
+move = (input("and You suddenly hear a voice:"))
+move = (input("You are, Indeed, not supposed to be a cat."))
+if troll == True:
+    print ("However, due to your choices, you must face death and Be cast into to hell")
